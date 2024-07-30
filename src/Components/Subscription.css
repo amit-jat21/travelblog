@@ -1,0 +1,112 @@
+.subscription-container {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fffbf0;
+    margin-top: 40px;
+  }
+  
+  .subscription-container h2 {
+    color: #ff5a5f;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+  }
+  
+  .subscription-container h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .subscription-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    gap: 10px; /* Space between input and button */
+    margin-top: 20px;
+  }
+  
+  .subscription-form input {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 30px;
+    margin-right: 10px;
+    width: 100%; /* Full width on mobile */
+    max-width: 300px; /* Maximum width */
+  }
+  
+  .subscription-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #6200ea;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Full width on mobile */
+    max-width: 200px; /* Maximum width */
+  }
+  
+  .subscription-form button:hover {
+    background-color: #4500b5;
+  }
+  
+  /* Media Queries */
+  
+  /* Tablet devices (portrait and landscape) */
+  @media (max-width: 768px) {
+    .subscription-container h2 {
+      font-size: 14px;
+    }
+  
+    .subscription-container h3 {
+      font-size: 20px;
+    }
+  
+    .subscription-form input {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  
+    .subscription-form button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  
+  /* Mobile devices */
+  @media (max-width: 480px) {
+    .subscription-container h2 {
+      font-size: 12px;
+    }
+  
+    .subscription-container h3 {
+      font-size: 18px;
+    }
+  
+    .subscription-form {
+      flex-direction: column;
+      gap: 10px; /* Space between stacked input and button */
+    }
+  
+    .subscription-form input {
+      font-size: 14px;
+      padding: 8px 16px;
+      width: 100%;
+      max-width: none; /* Remove max-width on mobile */
+    }
+  
+    .subscription-form button {
+      font-size: 14px;
+      padding: 8px 16px;
+      width: 100%;
+      max-width: none; /* Remove max-width on mobile */
+    }
+  }
+  

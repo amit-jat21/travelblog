@@ -1,0 +1,113 @@
+.testimonial-slider-container {
+    text-align: center;
+    padding: 50px 20px;
+   background-image: url('../Assests/Layer_1.png');
+
+  }
+  
+  .testimonial-slider-container h2 {
+    color: #ff5a5f;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .testimonial-slider-container h3 {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  
+  .slick-slider {
+    position: relative;
+  }
+  
+  .slick-list {
+    overflow: hidden;
+  }
+  
+  .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 0 10px;
+  }
+  
+  .slick-prev, .slick-next {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    background-color: #6200ea;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    cursor: pointer;
+  }
+  
+  .slick-prev {
+    left: 100px; /* Adjusted to bring it closer to the center */
+  }
+  
+  .slick-next {
+    right: 100px; /* Adjusted to bring it closer to the center */
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    font-size: 50px;
+    color: #ffffff;
+    content: '';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slick-prev:before {
+    content: '←';
+  }
+  
+  .slick-next:before {
+    content: '→';
+  }
+  
+  .testimonial-card {
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    
+    text-align: center;
+    padding: 90px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .testimonial-avatar {
+    width: 100px;
+    height: 100px;
+     align-items: center;margin-left: 170px;
+     margin-bottom: 50px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-card h4 {
+    color: #333;
+    font-size: 18px;
+    padding: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-rating i {
+    color: #fff700;
+    font-size: 16px;
+  }
+  
+  .testimonial-card p {
+    color: #666;
+    font-size: 14px;
+    margin: 10px 0;
+  }
